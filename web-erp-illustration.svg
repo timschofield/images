@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1304 681">
+    <!-- Background -->
+    <rect width="1304" height="681" fill="#f5f5f5"/>
+    
+    <!-- Header Banner -->
+    <rect x="0" y="0" width="1304" height="80" fill="#2c3e50"/>
+    <text x="40" y="50" font-family="Arial" font-size="32" fill="white">WebERP Dashboard</text>
+    
+    <!-- Main Container -->
+    <rect x="20" y="100" width="1264" height="561" fill="white" rx="10"/>
+    
+    <!-- Navigation Menu -->
+    <rect x="20" y="100" width="200" height="561" fill="#34495e" rx="10 0 0 10"/>
+    
+    <!-- Menu Items -->
+    <g fill="white" font-family="Arial" font-size="16">
+        <text x="40" y="140">Dashboard</text>
+        <text x="40" y="180">Inventory</text>
+        <text x="40" y="220">Sales</text>
+        <text x="40" y="260">Purchasing</text>
+        <text x="40" y="300">Manufacturing</text>
+        <text x="40" y="340">Finance</text>
+        <text x="40" y="380">HR</text>
+        <text x="40" y="420">Reports</text>
+    </g>
+    
+    <!-- Main Content Area -->
+    <g transform="translate(240, 120)">
+        <!-- Charts Container -->
+        <rect width="500" height="250" fill="#fff" stroke="#ddd"/>
+        <rect x="20" y="20" width="460" height="210" fill="#ecf0f1"/>
+        <text x="40" y="50" font-family="Arial" font-size="18" fill="#2c3e50">Sales Performance</text>
+        
+        <!-- Bar Chart -->
+        <g transform="translate(60, 80)">
+            <rect width="40" height="140" fill="#3498db"/>
+            <rect x="60" width="40" height="100" fill="#3498db"/>
+            <rect x="120" width="40" height="160" fill="#3498db"/>
+            <rect x="180" width="40" height="120" fill="#3498db"/>
+            <rect x="240" width="40" height="90" fill="#3498db"/>
+            <rect x="300" width="40" height="130" fill="#3498db"/>
+        </g>
+        
+        <!-- KPI Cards -->
+        <g transform="translate(0, 280)">
+            <!-- Revenue Card -->
+            <rect width="240" height="120" fill="#fff" stroke="#ddd"/>
+            <text x="20" y="340" font-family="Arial" font-size="16" fill="#7f8c8d">Total Revenue</text>
+            <text x="20" y="370" font-family="Arial" font-size="24" fill="#2c3e50">$1,234,567</text>
+            
+            <!-- Orders Card -->
+            <rect x="260" width="240" height="120" fill="#fff" stroke="#ddd"/>
+            <text x="280" y="340" font-family="Arial" font-size="16" fill="#7f8c8d">Total Orders</text>
+            <text x="280" y="370" font-family="Arial" font-size="24" fill="#2c3e50">1,234</text>
+        </g>
+    </g>
+    
+    <!-- Right Sidebar -->
+    <g transform="translate(760, 120)">
+        <!-- Recent Activities -->
+        <rect width="480" height="520" fill="#fff" stroke="#ddd"/>
+        <text x="20" y="30" font-family="Arial" font-size="18" fill="#2c3e50">Recent Activities</text>
+        
+        <!-- Activity Items -->
+        <g font-family="Arial" font-size="14" fill="#2c3e50">
+            <text x="20" y="70">New order #12345 received</text>
+            <text x="20" y="100">Inventory updated for SKU-789</text>
+            <text x="20" y="130">Invoice #567 processed</text>
+            <text x="20" y="160">Purchase order #890 approved</text>
+            <text x="20" y="190">New employee onboarded</text>
+        </g>
+    </g>
+    
+    <!-- User Profile -->
+    <g transform="translate(1160, 20)">
+        <circle cx="30" cy="30" r="20" fill="#ecf0f1"/>
+        <text x="70" y="35" font-family="Arial" font-size="14" fill="white">Admin</text>
+    </g>
+</svg>
